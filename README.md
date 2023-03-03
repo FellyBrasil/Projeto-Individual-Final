@@ -9,3 +9,63 @@ Aqui a baixo irei mostrar as diversas ideias que teve na equipe:
 
 •	**Ideia final**: Foi a ideia escolhida, que estamos utilizando e que irá ser apresentada no projeto final.
 
+
+# [ API ] Programadores Cariocas
+### 📑 Descrição
+Desenvolvimento da <em>**API REST**</em> no **padrão MVC** que retorna informações das entidades de um aplicatico de administrção que efetua todas as operações **CRUD**: ``polos``, ``candidatos``, ``resultados``, ``zonas``.
+
+**[ Tecnologias ]**
+
+<samp>
+  
+- <em>Node.js</em> | <em>SQLite3</em> | <em>Express</em> | <em>Insomnia</em> | <em>CORS</em> | <em>npm</em> | <em>Nodemon</em>
+  
+</samp>
+
+## Rotas CRUD
+
+### [ 1 ] <em>polos</em>
+
+| Método | Rota | Descrição |
+| ------ | ----- | ----------- |
+| **`GET`** | **/polos** | Retorna todos os fisioterapeutas. |
+|  **`GET`** | **/polos/id** | Retorna um fisioterapeuta. |
+|  **`POST`** | **/polos** | Cria um novo fisioterapeuta.  |
+|  **`PUT`** | **/polos/id** | Altera os dados do fisioterapeuta.
+|  **`DELETE`** | **/polos/id** | Remove o fisioterapeuta.
+  
+### [ 2 ] <em>candidatos</em>
+
+| Método | Rota | Descrição |
+| ------ | ----- | ----------- |
+|  **`GET`** | **/candidatos** | Retorna todos os Pacientes. |
+|  **`GET`** | **/candidatos/id** | Retorna um Paciente. |
+|  **`POST`** | **/candidatos** | Cria um novo Paciente.  |
+|  **`PUT`** | **/candidatos/id** | Altera os dados do Paciente.
+|  **`DELETE`** | **/candidatos/id** | Remove o Paciente.
+  
+  
+### [ 2 ] <em>resultados</em>
+
+| Método | Rota | Descrição |
+| ------ | ----- | ----------- |
+|  **`GET`** | **/resultados** | Retorna todos os agendamentos. |
+|  **`GET`** | **/resultados/id** | Retorna um agendamento. |
+|  **`POST`** | **/resultados** | Cria um novo agendamento.  |
+|  **`PUT`** | **/resultados/id** | Altera os dados do agendamento.
+|  **`DELETE`** | **/resultados/id** | Remove o agendamento.
+
+
+### [ 2 ] <em>zonas</em>
+
+| Método | Rota | Descrição |
+| ------ | ----- | ----------- |
+|  **`GET`** | **/zonas** | Retorna todos os equipamentos. |
+|  **`GET`** | **/zonas/id** |  Retorna um equipamento. |
+|  **`POST`** | **/zonas** | Cria um novo mequipamento.  |
+|  **`PUT`** | **/zonas/id** | Altera os dados do equipamento.
+|  **`DELETE`** | **/zonas/id** | Remove o equipamento.
+  
+
+
+
