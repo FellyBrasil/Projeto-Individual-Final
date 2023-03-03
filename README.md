@@ -45,7 +45,7 @@ Desenvolvimento da <em>**API REST**</em> no **padrão MVC** que retorna informa�
 |  **`DELETE`** | **/candidatos/id** | Remove o Paciente.
   
   
-### [ 2 ] <em>resultados</em>
+### [ 3 ] <em>resultados</em>
 
 | Método | Rota | Descrição |
 | ------ | ----- | ----------- |
@@ -56,7 +56,7 @@ Desenvolvimento da <em>**API REST**</em> no **padrão MVC** que retorna informa�
 |  **`DELETE`** | **/resultados/id** | Remove o agendamento.
 
 
-### [ 2 ] <em>zonas</em>
+### [ 4 ] <em>zonas</em>
 
 | Método | Rota | Descrição |
 | ------ | ----- | ----------- |
